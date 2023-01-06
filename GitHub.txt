@@ -1,0 +1,45 @@
+Git - Sistema de control de versiones
+
+Limpiar consola 
+CTRL + L
+Clear
+
+
+~ HOME
+/ Carpeta
+
+Comandos
+
+ls -al #Muestra los archivos en lista (También ocultos)
+ls -l #Muestra los archivos en lista
+
+mkdir #Crear carpeta
+mkdir proyecto1 
+
+touch #Crear Archivo
+touch archivo.txt
+
+cat #Visualizar archivo
+cat archivo.txt #Retorna lo escrito en el .txt
+
+history #Revisar historial de comandos
+!72 #Seleccionar comando utilizado en posición 72
+
+rm #Remove - Eliminar archivo (Tener cuidado con este comando)
+
+pwd #Retorna ubicación actual
+
+###  Generar ENTORNO VIRTUAL  ###
+
+En la ubicación actual 
+git init #Genera Env en ubicación
+ls -al #muestra elementos ocultos
+
+git add (nombre del archivo) #Agregar archivo al Repositorio
+git rm --cached (nombre del archivo) #Eliminar de la lista al Repositorio
+## DIFERENCIA ENTRE RM --CACHED Y RM ##
+
+--CACHED Significa que está en memoria RAM, que está no guardado en la base de datos
+
+
+
