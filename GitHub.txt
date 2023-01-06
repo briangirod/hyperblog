@@ -41,5 +41,10 @@ git rm --cached (nombre del archivo) #Eliminar de la lista al Repositorio
 
 --CACHED Significa que está en memoria RAM, que está no guardado en la base de datos
 
+git config #Muestra opciones de configuración
+git config --list #Muestra configuraciones en lista
+git config --list --show-origin #Muestra el origen del archivo de configuración
+git config --global user.name "Brian Girod" #Configurar nombre
+git config --global user.email "@gmail" #Configura email
 
-
+code (Nombre del archivo) #Abre es VSC
