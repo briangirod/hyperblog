@@ -57,3 +57,5 @@ git diff (Version 1 ) (Version 2) #Comprar versiones de modificaciones
 Es el lugar donde se guardan temporalmente los ambios, apra luegos ser guardados definitivamente ne el Repositorio
 #Staging area
 
+git reset (version) --hard #Retornar completo a version anterior borrando
+git reset (version) --soft #Retorna sin borrar
