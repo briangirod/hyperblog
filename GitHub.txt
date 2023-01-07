@@ -48,3 +48,12 @@ git config --global user.name "Brian Girod" #Configurar nombre
 git config --global user.email "@gmail" #Configura email
 
 code (Nombre del archivo) #Abre es VSC
+
+git log (Nombre del archivo) #Ver historial de modificaciones
+
+git diff (Version 1 ) (Version 2) #Comprar versiones de modificaciones
+
+¿Qué es el staging?
+Es el lugar donde se guardan temporalmente los ambios, apra luegos ser guardados definitivamente ne el Repositorio
+#Staging area
+
