@@ -59,3 +59,5 @@ Es el lugar donde se guardan temporalmente los ambios, apra luegos ser guardados
 
 git reset (version) --hard #Retornar completo a version anterior borrando
 git reset (version) --soft #Retorna sin borrar
+
+git
