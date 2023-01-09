@@ -36,6 +36,7 @@ git init #Genera Env en ubicación
 ls -al #muestra elementos ocultos
 
 git add (nombre del archivo) #Agregar archivo al Repositorio
+git comit -am
 git rm --cached (nombre del archivo) #Eliminar de la lista al Repositorio
 ## DIFERENCIA ENTRE RM --CACHED Y RM ##
 
@@ -60,4 +61,9 @@ Es el lugar donde se guardan temporalmente los ambios, apra luegos ser guardados
 git reset (version) --hard #Retornar completo a version anterior borrando
 git reset (version) --soft #Retorna sin borrar
 
-git
+git branch (Nombre) #Copia el último commit a esta rama paralela
+git checkout (nombre) #Cambiar Head
+
+git show #Meustra lo que está sucediendo o sucedio, en el caso de Branch muestra que se hizo
+
+Test
