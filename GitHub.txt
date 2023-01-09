@@ -67,3 +67,5 @@ git checkout (nombre) #Cambiar Head
 git show #Meustra lo que está sucediendo o sucedio, en el caso de Branch muestra que se hizo
 
 Test
+
+12345
