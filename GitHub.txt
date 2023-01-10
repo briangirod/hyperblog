@@ -1,0 +1,71 @@
+Git - Sistema de control de versiones
+
+Limpiar consola 
+CTRL + L
+Clear
+
+
+~ HOME
+/ Carpeta
+
+Comandos
+
+ls -al #Muestra los archivos en lista (También ocultos)
+ls -l #Muestra los archivos en lista
+
+mkdir #Crear carpeta
+mkdir proyecto1 
+
+touch #Crear Archivo
+touch archivo.txt
+
+cat #Visualizar archivo
+cat archivo.txt #Retorna lo escrito en el .txt
+
+history #Revisar historial de comandos
+!72 #Seleccionar comando utilizado en posición 72
+
+rm #Remove - Eliminar archivo (Tener cuidado con este comando)
+
+pwd #Retorna ubicación actual
+
+###  Generar ENTORNO VIRTUAL  ###
+
+En la ubicación actual 
+git init #Genera Env en ubicación
+ls -al #muestra elementos ocultos
+
+git add (nombre del archivo) #Agregar archivo al Repositorio
+git comit -am
+git rm --cached (nombre del archivo) #Eliminar de la lista al Repositorio
+## DIFERENCIA ENTRE RM --CACHED Y RM ##
+
+--CACHED Significa que está en memoria RAM, que está no guardado en la base de datos
+
+git config #Muestra opciones de configuración
+git config --list #Muestra configuraciones en lista
+git config --list --show-origin #Muestra el origen del archivo de configuración
+git config --global user.name "Brian Girod" #Configurar nombre
+git config --global user.email "@gmail" #Configura email
+
+code (Nombre del archivo) #Abre es VSC
+
+git log (Nombre del archivo) #Ver historial de modificaciones
+
+git diff (Version 1 ) (Version 2) #Comprar versiones de modificaciones
+
+¿Qué es el staging?
+Es el lugar donde se guardan temporalmente los ambios, apra luegos ser guardados definitivamente ne el Repositorio
+#Staging area
+
+git reset (version) --hard #Retornar completo a version anterior borrando
+git reset (version) --soft #Retorna sin borrar
+
+git branch (Nombre) #Copia el último commit a esta rama paralela
+git checkout (nombre) #Cambiar Head
+
+git show #Meustra lo que está sucediendo o sucedio, en el caso de Branch muestra que se hizo
+
+Test
+
+12345
